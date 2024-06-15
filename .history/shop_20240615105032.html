@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop</title>
+    <!-- jquery cdn -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Bootstrap cdn -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <!-- Fontawesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <!-- slider  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+        integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+        integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <div class="container-fluid nav_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> JarkaTeas</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav nav_ul mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                </li>
+
+
+
+                            </ul>
+                            <form class="d-flex search-nav">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Hero Section start -->
+    <div class="container-fluid about-hero">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center about-hero-text">
+                    <h1><b>The Shop</b></h1>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <p>Sit euismod mi quam in vulputate amet in. Tincidunt scelerisque convallis amet id et
+                                viverra euismod aliquam. Tellus malesuada commodo fames laoreet.</p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-md-12 shop-bg">
+                    <p>SAVE UPTO 30% DISCOUNT OFF</p>
+                    <h1><b>Smart Home <br> Appliances</b></h1>
+                    <div class="row">
+                        <div class="col-md-3 col-12">
+                            <button class="btn btn-primary btn-all">BUY PRODUCT NOW</button>
+                        </div>
+                        <div class="col-md-9"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- <div class="row shop-product-row">
+                <div class="col-md-3 shop-select-col">
+                    <select class="form-select" aria-label="Default select example">
+                        <option selected>Default so...</option>
+                        <option value="1">One</option>
+                        <option value="2">Two</option>
+                        <option value="3">Three</option>
+                    </select>
+                </div>
+                <div class="col-md-9"></div>
+            </div> -->
+            <div class="row shop-product-row">
+                <div class="col-md-3 shop-select-col">
+                    <select class="form-select" id="category">
+                        <option value="all">All Products</option>
+                        <option value="paper-bag-teas">Paper Bag Teas</option>
+                        <option value="clear-back">Clear Back</option>
+                        <option value="tincture">Tincture</option>
+                        <option value="oral-sprays">Oral Sprays</option>
+                    </select>
+                </div>
+                <div class="col-md-9"></div>
+            </div>
+
+
+
+
+             <!-- All Products Section -->
+        <div class="shop-product-section" id="all">
+            <div class="row" id="all-products">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Paper Bag Teas Section -->
+        <div class="shop-product-section" id="paper-bag-teas">
+            <div class="row" id="paper-bag-teas-products">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Clear Back Section -->
+        <div class="shop-product-section" id="clear-back">
+            <div class="row" id="clear-back-products">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Tincture Section -->
+        <div class="shop-product-section" id="tincture">
+            <div class="row" id="tincture-products">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Oral Sprays Section -->
+        <div class="shop-product-section" id="oral-sprays">
+            <div class="row" id="oral-sprays-products">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+        
+        <!-- tea-strainers -->
+        <div class="shop-product-section" id="tea-strainers">
+            <div class="row" id="tea-strainers-products">
+                <!-- Products will be dynamically added here -->
+            </div>
+        </div>
+
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <div class="container-fluid footer-bg">
+        <div class="container">
+
+            <div class="row p-4 align-items-center">
+                <div class="col-md-2">
+                    <h1> JarkaTeas</h1>
+                </div>
+                <div class="col-md-8 footer-last">
+                    <span class="para">Copyright © 2024 JarkaTeas. Developed by 4-Brothers Tech</span>
+                </div>
+                <div class="col-md-2 d-flex align-items-end">
+                    <a href=""><img src="img/Payment 1.png" width="100%" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script>
+        // Define an object to map images to categories
+        const products = {
+            "paper-bag-teas": [
+                { src: "img/Bones _ Joints Tea .jpeg", alt: "Bones & Joints Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Constipation Tea 2.jpeg", alt: "Constipation Tea", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Dry cough_ Sore throat  _ swollen lymth Tea .jpeg", alt: "Dry Cough, Sore Throat & Swollen Lymph Tea", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Feet arthritis Tea.jpg", alt: "Feet Arthritis Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Feet Arthritis White bag.jpg", alt: "Feet Arthritis White Bag", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Glowing skin Tea .jpeg", alt: "Glowing Skin Tea", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Hay Fever Relief Tea .JPG", alt: "Hay Fever Relief Tea", brand: "Brand Name", stars: 4, price: "£7.99" }
+                // Add more products as needed
+            ],
+            "clear-back": [
+                { src: "img/Keeps getting ill _ Tincture .jpeg", alt: "Keeps Getting Ill Tincture", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Peaceful sleep Tincture Lids.jpeg", alt: "Peaceful Sleep Tincture", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Anti-hyperactivity _ Concentration Tincture Kids.jpg", alt: "Anti-hyperactivity & Concentration Tincture for Kids", brand: "Brand Name", stars: 5, price: "£7.99" }
+                // Add more products as needed
+            ],
+            "tincture": [
+                { src: "img/High blood pressure Tea.jpg", alt: "High Blood Pressure Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Insomnia Tea .jpg", alt: "Insomnia Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Menstrual cramps Tea.JPG", alt: "Menstrual Cramps Tea", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Muiscle grow Tea in a white bag.jpg", alt: "Muscle Growth Tea in White Bag", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Psoriasios Tea in white bag.jpg", alt: "Psoriasis Tea in White Bag", brand: "Brand Name", stars: 4, price: "£7.99" }
+                // Add more products as needed
+            ],
+            "oral-sprays": [
+                { src: "img/Sleepwalking Tea .jpeg", alt: "Sleepwalking Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Antidepressant Oral spray.jpg", alt: "Antidepressant Oral Spray", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Anxiety _ Panic attacks oral spray.jpeg", alt: "Anxiety & Panic Attacks Oral Spray", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Back pain _ Muscle relaxant Oral Spray.jpg", alt: "Back Pain & Muscle Relaxant Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Deep Immunity Oral spray.jpg", alt: "Deep Immunity Oral Spray", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Erectile dysfunction Oral spray.jpg", alt: "Erectile Dysfunction Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/FHay fever relief.jpg", alt: "Hay Fever Relief Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Healthy cells oral spray.jpg", alt: "Healthy Cells Oral Spray", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/High blood presure Oral spray.jpg", alt: "High Blood Pressure Oral Spray", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Lungs Health Oral spray.JPG", alt: "Lungs Health Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" }
+                // Add more products as needed
+            ],
+            "tea-strainers": [
+                // Add products as needed
+                {src: "img/1.jpeg", alt: "Tea Strainers", brand: "Brand Name", stars: 4, price: "£7.99"},
+                {src: "img/2.jpeg", alt: "Tea Strainers", brand: "Brand Name", stars: 4, price: "£7.99"},
+                {src: "img/3.jpeg", alt: "Tea Strainers", brand: "Brand Name", stars: 4, price: "£7.99"},
+                {src: "img/4.jpeg", alt: "Tea Strainers", brand: "Brand Name", stars: 4, price: "£7.99"},
+                {src: "img/5.jpeg", alt: "Tea Strainers", brand: "Brand Name", stars: 4, price: "£7.99"},
+                {src: "img/6.jpeg", alt: "Tea Strainers", brand: "Brand Name", stars: 4, price: "£7.99"},
+            ],
+            "all": [
+                { src: "img/Bones _ Joints Tea .jpeg", alt: "Bones & Joints Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Constipation Tea 2.jpeg", alt: "Constipation Tea", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Dry cough_ Sore throat  _ swollen lymth Tea .jpeg", alt: "Dry Cough, Sore Throat & Swollen Lymph Tea", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Feet arthritis Tea.jpg", alt: "Feet Arthritis Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Feet Arthritis White bag.jpg", alt: "Feet Arthritis White Bag", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Glowing skin Tea .jpeg", alt: "Glowing Skin Tea", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Hay Fever Relief Tea .JPG", alt: "Hay Fever Relief Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Keeps getting ill _ Tincture .jpeg", alt: "Keeps Getting Ill Tincture", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Peaceful sleep Tincture Lids.jpeg", alt: "Peaceful Sleep Tincture", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Anti-hyperactivity _ Concentration Tincture Kids.jpg", alt: "Anti-hyperactivity & Concentration Tincture for Kids", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/High blood pressure Tea.jpg", alt: "High Blood Pressure Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Insomnia Tea .jpg", alt: "Insomnia Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Menstrual cramps Tea.JPG", alt: "Menstrual Cramps Tea", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Muiscle grow Tea in a white bag.jpg", alt: "Muscle Growth Tea in White Bag", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Psoriasios Tea in white bag.jpg", alt: "Psoriasis Tea in White Bag", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Sleepwalking Tea .jpeg", alt: "Sleepwalking Tea", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Antidepressant Oral spray.jpg", alt: "Antidepressant Oral Spray", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Anxiety _ Panic attacks oral spray.jpeg", alt: "Anxiety & Panic Attacks Oral Spray", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Back pain _ Muscle relaxant Oral Spray.jpg", alt: "Back Pain & Muscle Relaxant Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Deep Immunity Oral spray.jpg", alt: "Deep Immunity Oral Spray", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/Erectile dysfunction Oral spray.jpg", alt: "Erectile Dysfunction Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/FHay fever relief.jpg", alt: "Hay Fever Relief Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" },
+                { src: "img/Healthy cells oral spray.jpg", alt: "Healthy Cells Oral Spray", brand: "Brand Name", stars: 5, price: "£7.99" },
+                { src: "img/High blood presure Oral spray.jpg", alt: "High Blood Pressure Oral Spray", brand: "Brand Name", stars: 3, price: "£7.99" },
+                { src: "img/Lungs Health Oral spray.JPG", alt: "Lungs Health Oral Spray", brand: "Brand Name", stars: 4, price: "£7.99" }
+                // Add more products as needed
+            ]
+        };
+
+        // Function to generate HTML for each product
+        function generateProductHTML(product) {
+            return `
+                <div class="col-lg-4 col-md-6 col-sm-12 shop-review-col">
+                    <div class="box text-center">
+                        <div class="d-flex justify-content-center slider-product">
+                            <img src="${product.src}" alt="${product.alt}">
+                        </div>
+                        <h6>${product.alt}</h6>
+                        <p>${product.brand}</p>
+                        <div class="star">
+                            ${Array.from({ length: 5 }, (_, index) => `<div id="star" class="${index < product.stars ? 'active' : 'inactive'}" data-index=${index}>★</div>`).join('')}
+                        </div>
+                        <p>${product.price}</p>
+                        <a href="add-cart.html" class="btn btn-primary btn-all">Add to cart</a>
+                    </div>
+                </div>
+            `;
+        }
+
+        // Function to populate products into respective sections
+        function populateProducts(category, containerId) {
+            const container = document.getElementById(containerId);
+            if (!container) return;
+
+            const productsList = category === 'all' ? Object.values(products).flat() : products[category];
+            if (!productsList) return;
+
+            const productsHTML = productsList.map(product => generateProductHTML(product)).join('');
+            container.innerHTML = productsHTML;
+        }
+
+        // Event listener for category select change
+        const categorySelect = document.getElementById('category');
+        categorySelect.addEventListener('change', function() {
+            const selectedCategory = this.value;
+
+            // Hide all product sections
+            document.querySelectorAll('.shop-product-section').forEach(section => {
+                section.style.display = 'none';
+            });
+
+            // Show only the selected category
+            document.getElementById(selectedCategory).style.display = 'block';
+
+            // Populate products for the selected category
+            populateProducts(selectedCategory, `${selectedCategory}-products`);
+        });
+
+        // Initially populate products for the default selected category (All Products)
+        const defaultCategory = categorySelect.value;
+        populateProducts(defaultCategory, `${defaultCategory}-products`);
+    </script>
+
+    <!-- custom javascript -->
+    <script src="js/slider-jquery.js"></script>
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>

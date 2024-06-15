@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shoping Cart</title>
+      <!-- jquery cdn -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+      <!-- Bootstrap cdn -->
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  
+      <!-- Fontawesome cdn -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <!-- custom css -->
+      <link rel="stylesheet" href="css/style.css">
+      <!-- responsive css -->
+      <link rel="stylesheet" href="css/responsive.css">
+  
+      <!-- slider  -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+          integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+          integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+          integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+          integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container-fluid nav_main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-lg navbar-light">
+                        <a class="navbar-brand" href="index.html"> JarkaTeas</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav nav_ul mx-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="about-us.html">About Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="shop.html">Shop</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="contact-us.html">Contact Us</a>
+                                </li>
+
+
+
+                            </ul>
+                            <form class="d-flex search-nav">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                            </form>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Hero Section -->
+    <div class="container-fluid shoping-cart-main">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 shoping-cart shoping-cart-flex">
+                    <span>1</span><p>SHOPPING CART</p>
+                </div>
+                <div class="col-md-4 checkout-cart1 shoping-cart-flex">
+                    <span>2</span><p>CHECKOUT</p>
+                </div>
+                <div class="col-md-4 order-cart order-cart1 shoping-cart-flex">
+                    <span>3</span><p>ORDER STATUS</p>
+                </div>
+            </div>
+            <!--  -->
+            <div class="row congratulations-row">
+                <div class="col-lg-6 col-md-12">
+                    <div class="congratulations-text">
+                        <div class="d-flex">
+                            <span><i class="fa-sharp fa-regular fa-star"></i></span> <p>Congratulations! You've got free shipping.</p>
+                        </div>
+                        <hr class="congratulations-hr">
+                    </div>
+                    <!--  -->
+                    <div class="row congratulations-text-product-row">
+                        <div class="col-md-5 congratulations-text-product-col">
+                            <p>PRODUCT</p>
+                            <div class="row">
+                                <div class="col-md-4 product-selling-shop">
+                                    <img src="img/Anxiety _ Panic attacks Tea.JPG" width="100%" alt="">
+                                </div>
+                                <div class="col-md-8 product-selling-shop">
+                                    <p class="para-shop">Hi-Resolution Bluetooth 4.0 Wireless Speakers</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-1 congratulations-text-product-col">
+                            <p>PRICE</p>
+                            <div class="product-selling-shop">
+                                <p>$320.00</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 congratulations-text-product-col">
+                            <p>SKU</p>
+                            <div class="product-selling-shop">
+                                <p>1231-1</p>
+                            </div>
+                        </div>
+                        <div class="col-md-2 congratulations-text-product-col">
+                            <p>QUANTITY</p>
+                            <div class="counter counter-bor">
+                                <input class="counter__input" type="text" value="0" name="counter" size="5" readonly="readonly"/>
+                                <a class="counter__increment" href="#">+</a><a class="counter__decrement" href="#">&ndash;</a>
+                              </div>
+                        </div>
+                        <div class="col-md-2 congratulations-text-product-col">
+                            <p>SUBTOTAL</p>
+                            <div class="product-selling-shop">
+                                <p>$640.00</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-10 remove-shoping">
+                            <a href="">Remove</a>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <div class="input-group input-group-shoping mb-3">
+                        <input type="text" class="form-control" placeholder="Coupon Code" aria-label="Recipient's username" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">OK</span>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="p-4 cart-totals">
+                        <h5>CART TOTALS</h5>
+                        <div class="row cart-totals-second-row">
+                            <div class="col-md-6 col-6 cart-totals-second-col">
+                                <h5>Subtotal</h5>
+                            </div>
+                            <div class="col-md-6 col-6 text-end cart-totals-second-col">
+                                <h5>$1,234.50</h5>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="row cart-totals-second-row">
+                            <div class="col-md-6 col-6 cart-totals-second-col">
+                                <h5>TOTAL</h5>
+                            </div>
+                            <div class="col-md-6 col-6 text-end cart-totals-second-col">
+                                <h5>$1,234.50</h5>
+                            </div>
+                        </div>
+                        <!--  -->
+                        <div class="row cart-totals-second-row">
+                            <div class="col-md-12 mt-1 cart-totals-second-col">
+                                <a href="checkout.html" class="btn btn-primary btn-all">Proceed to checkout</a>
+                            </div>
+                            <div class="col-md-12 mt-1 cart-totals-second-col">
+                                <a href="add-cart.html" class="btn btn-primary btn-all cont-shoping">Continue Shopping</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--  -->
+
+                    <div class="row payment-security-row">
+                        <div class="col-md-12 text-center">
+                            <h5>Payment security</h5>
+                            <p>Encryption ensures increased transaction security. SSL technology protects data linked to personal and payment info.</p>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <img src="img/payment 2.png" width="90%" alt="">
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
+    </div>
+
+    <!--  -->
+
+
+   <!-- Footer -->
+   <div class="container-fluid footer-bg">
+    <div class="container">
+
+        <div class="row p-4 align-items-center">
+            <div class="col-md-2">
+                <h1> JarkaTeas</h1>
+            </div>
+            <div class="col-md-8 footer-last">
+                <span class="para">Copyright © 2024  JarkaTeas. Developed by 4-Brothers Tech</span>
+            </div>
+            <div class="col-md-2 d-flex align-items-end">
+                <a href=""><img src="img/Payment 1.png" width="100%" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+    <!-- Custom Js -->
+    <script src="js/slider-jquery.js"></script>
+    <!-- Bootstrap script -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
